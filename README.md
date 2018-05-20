@@ -1,1 +1,1 @@
-# Khan_Academy_Practice
+# Khan Academy Practice
