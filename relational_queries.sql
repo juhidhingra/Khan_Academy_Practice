@@ -35,20 +35,21 @@ INSERT INTO hobbies (person_id, name)
 VALUES (5, "making jokes");
 
 SELECT persons.name, hobbies.name 
-	FROM 
-    persons 
-    	JOIN 
+    FROM 
+        persons 
+    JOIN 
         hobbies 
-    	ON 
+    ON 
         persons.id = hobbies.person_id;
-        
+            
 
 SELECT persons.name, hobbies.name 
-	FROM 
-    persons 
-    	JOIN 
+    FROM 
+        persons 
+    JOIN 
         hobbies 
-    	ON 
+    ON 
         persons.id = hobbies.person_id
-		WHERE persons.name = "Bobby McBobbyFace";
+    WHERE 
+        persons.name = "Bobby McBobbyFace";
 
